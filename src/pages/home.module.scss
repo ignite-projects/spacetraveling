@@ -1,1 +1,41 @@
-// TODO
+.container {
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      font-size: 0.875rem;
+      line-height: 1.05rem;
+      color: var(--info);
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+    li + li {
+      margin-left: 1.5rem;
+    }
+  }
+}
+.post{
+  margin-bottom: 3rem;
+}
+.title {
+  font-weight: 700;
+  line-height: 2.1rem;
+  font-size: 1.75rem;
+  color: var(--heading);
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.36rem;
+  color: var(--body);
+  margin-bottom: 1.5rem;
+}
+.button {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--highlight);
+  background-color: transparent;
+  border: none;
+}
